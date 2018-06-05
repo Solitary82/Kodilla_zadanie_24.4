@@ -1,0 +1,26 @@
+{
+  "name": "format-date",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test",
+    "gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solitary82/Kodilla_zadanie_24.4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Solitary82/Kodilla_zadanie_24.4/issues"
+  },
+  "homepage": "https://github.com/Solitary82/Kodilla_zadanie_24.4#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "onchange": "^4.0.0"
+  }
+}
